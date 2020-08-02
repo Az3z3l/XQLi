@@ -14,6 +14,6 @@ This challenge is based on SQLi, CSRF and XSS.
 **Setting up challenge :**
  - Install Docker
  - Install Docker-Compose
- - git clone https://github.com/Az3z3l/XQLi
+ - git clone https://github.com/Az3z3l/XQLi.git
  - cd XQLi
  - sudo docker-compose up
