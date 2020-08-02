@@ -10,3 +10,10 @@ This challenge is based on SQLi, CSRF and XSS.
 **Number of solves :** 2
 
 **Writeup link :** [soln](http://az3z3l.github.io)
+
+**Setting up challenge :**
+ - Install Docker
+ - Install Docker-Compose
+ - git clone https://github.com/Az3z3l/XQLi
+ - cd XQLi
+ - sudo docker-compose up
