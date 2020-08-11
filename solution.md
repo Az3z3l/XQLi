@@ -10,7 +10,10 @@ The intended method is to use lcase function along with unicode characters that 
 
 The unicode character [K](https://www.compart.com/en/unicode/U+212A) can be used here.
 
-intended solution: `lcase('inKypinKy')id from dual`
+Payloads:
+ - `lcase('inKypinKy')id from dual`
+ - `select X'696e6b7970696e6b79' as id from dual`
+ - `case when 0=1 then 'from' else chr(105,110,107,121,112,105,110,107,121) end as id`
 
 **Part - II:**
 
